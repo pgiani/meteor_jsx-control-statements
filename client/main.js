@@ -5,7 +5,14 @@ import { render } from 'react-dom';
 Meteor.startup(() => {
   class Main extends React.Component {
     render() {
-      return <div>hello</div>;
+      return (
+        <div>
+          hello
+          <If condition={true}>
+            <span>IfBlock</span>
+          </If>
+        </div>
+      );
     }
   }
 
