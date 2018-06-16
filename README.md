@@ -10,7 +10,7 @@ Install the dependencies and devDependencies .
 npm install
 ```
 
-Start Server.
+Start Server and vistid http://localhost:3000/
 
 ```sh
 npm start
