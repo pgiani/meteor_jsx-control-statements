@@ -1,0 +1,12 @@
+node_modules/
+.idea
+.DS_Store
+
+congo_desk.tar.gz
+npm-debug.log
+yarn.lock
+
+package-lock.json
+
+
+node_modules 2/react-aux/src/Aux.js
