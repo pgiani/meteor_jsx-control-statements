@@ -7,13 +7,18 @@ Meteor.startup(() => {
     render() {
       return (
         <div>
+          Before IF
+          <br />
+          <br />
           <If condition={false}>
             <span>SHOULD NOT SHOW</span>
           </If>
+          <br />
+          <br />
+          After IF
         </div>
       );
     }
   }
-
   render(<Main />, document.querySelector('.MyApp'));
 });
