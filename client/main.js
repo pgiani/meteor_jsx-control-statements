@@ -7,9 +7,8 @@ Meteor.startup(() => {
     render() {
       return (
         <div>
-          hello
-          <If condition={true}>
-            <span>IfBlock</span>
+          <If condition={false}>
+            <span>SHOULD NOT SHOW</span>
           </If>
         </div>
       );
